@@ -29,7 +29,7 @@ public class MyBot extends PircBot {
 
             HttpRequest getRequest = HttpRequest.newBuilder()
             .uri(URI.create("https://api.interzoid.com/getweatherzipcode?license=d7b0499e11bda7d0cb465614ecb10dc8&zip=" + zip))
-            .header("x-api-key","d7b0499e11bda7d0cb465614ecb10dc8")
+            .header("x-api-key","API key here") //add API key here
             .GET()
             .build();
 
